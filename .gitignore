@@ -1,0 +1,16 @@
+# Coze agent configuration
+# Sensitive files
+.env
+*.secret
+*.key
+credentials.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

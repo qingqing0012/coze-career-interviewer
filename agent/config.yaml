@@ -1,0 +1,19 @@
+# 职涯 · 模拟面试官 — 智能体配置
+name: "职涯 · 模拟面试官"
+description: "基于用户目标岗位，自动优化简历并模拟真实结构化面试流程。适用于求职者模拟练习、HR面试官培训等场景。"
+platform: "coze"
+version: "1.0.0"
+
+# 模型配置（根据实际修改）
+model:
+  provider: ""  # 如: coze, openai, claude
+  name: ""      # 模型名称
+  temperature: 0.7
+
+# 上下文
+context:
+  max_tokens: 4096
+  memory: true
+
+# 插件列表（根据实际填写）
+plugins: []
